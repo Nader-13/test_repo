@@ -1,0 +1,31 @@
+--- HelloWorld.c	2020-12-27 14:02:08.362031320 -0500
++++ HelloWorld1.c	2020-12-27 14:08:33.556151163 -0500
+@@ -1,10 +1,23 @@
+ // HelloWorld.c
+-
+-
++//
++// C program to display 'Hello, World!' to the screen/terminal.
++// Compilation and execution, under normal cicumstances in most modern
++// Linux worksations, takes less than one second.
++//
++// Compliation and execution:
++// gcc -g -Wall HelloWorld.c -o HelloWorld.x -lm
++// ./HellowWorld.x
++//
++// Headers
+ #include <stdio.h>
+ 
+-int main(){ 
++// main ()
+ 
+-	printf("Hello, World!");
++int main (int argc,char*argv[]){
++	//Print the message to the screen
++	printf("\n");
++	printf(" Hello, World!\n\n");
+ 
+-	}
++//indicate termination
++	return 0;
++}
